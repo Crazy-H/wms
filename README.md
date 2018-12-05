@@ -27,7 +27,7 @@ npm test
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
 ## 微信管理平台
-1. 项目搭建
+#### 1. 项目搭建
   + 技术栈：vue + vue-cli + webpack + vuex + vue-router + fetch + element-ui
     项目通过vue-cli脚手架工具搭建， webpack打包， 最新的vue-cli3.0即可快速搭建vue项目，后期考虑与使用pack，
   vue-cli3.0是否兼容还有待研究
@@ -37,7 +37,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
   + 组件的通用：作为系统的通用组件，需保证可以在其他的平台也能使用，例如在cms和微信管理系统中都能使用
 
-2. 文件结构
+#### 2. 文件结构
 ```
   |--build
   |--config
@@ -65,7 +65,7 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 ```
   项目使用eslint来规范代码，须严格按照eslint规范来写代码，规范可参考官方[eslint规范](https://eslint.org/docs/rules/)
 
-3. 项目的模块
+#### 3. 项目的模块
   - 登录页
   - 首页
   - 基础功能
