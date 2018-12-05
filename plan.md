@@ -12,30 +12,30 @@
   组件的通用：作为系统的通用组件，需保证可以在其他的平台也能使用，例如在cms和微信管理系统中都能使用
 
 2. 文件结构
-  ·
-  +--build
-  +--config
-  +--src  
-  |  +--api  使用的fetch进行封装的http请求
-  |     +--index.js  ajax封装
-  |     +--api.js    请求的接口
-  |  +--assets   静态文件
-  |  +--components  组件的文件
-  |  +--pages/views  视图文件
-  |  +--router  路由配置
-  |  +--store   状态管理仓库vuex
-  |  +--utils   通用的方法
-  |  +--App.vue
-  |  +--main.js 
-  +--static
-  +--test
-  +--.babelrc
-  +--.eslintignore
-  +--.gitignore
-  +--.postcssrc.js
-  +--index.html
-  +--package.json
-  +--readme.md
+```
+  |--build
+  |--config
+  |--src  
+  |  |--api  使用的fetch进行封装的http请求
+  |     |--index.js  ajax封装
+  |     |--api.js    请求的接口
+  |  |--assets   静态文件
+  |  |--components  组件的文件
+  |  |--pages/views  视图文件
+  |  |--router  路由配置
+  |  |--store   状态管理仓库vuex
+  |  |--utils   通用的方法
+  |  |--App.vue
+  |  |--main.js 
+  |--static
+  |--test
+  |--.babelrc
+  |--.eslintignore
+  |--.gitignore
+  |--.postcssrc.js
+  |--index.html
+  |--package.json
+  |--readme.md
 
   项目使用eslint来规范代码，须严格按照eslint规范来写代码，规范可参考官方[eslint规范](https://eslint.org/docs/rules/)
 
